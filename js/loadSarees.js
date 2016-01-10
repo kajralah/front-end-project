@@ -1,8 +1,9 @@
 function default_product(title,img){
 	var result="";
-	result += "<div><figure><img src="+"'";
-	result += img+"'"+" id=\"img\"/><figcaption><p>";
-	result += title+"</p></figcaption></figure></div>";
+	var image = "<img src="+img+"\" id=\"img\" />";
+	var final_image = image.slice(0,9)+'"'+image.slice(10,image.length);
+	result += "<figure>"+final_image+"<figcaption><p>";
+	result += title+"</p></figcaption></figure>";
 	return result;
 }
 
