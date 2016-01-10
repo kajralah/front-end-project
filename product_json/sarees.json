@@ -3,5 +3,3 @@ saree = [
     	"title": "",
     }
 ]
-
-console.log("1");
