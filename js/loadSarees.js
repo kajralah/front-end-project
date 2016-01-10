@@ -11,4 +11,3 @@ function getData(){
         $("#test").append(default_product(data["bollywood"][0]["title"],data["bollywood"][0]["img_src"]));
       });
 }
-
