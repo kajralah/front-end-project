@@ -1,5 +1,34 @@
-saree = [
+{ "bridal":[
     {
-    	"title": "",
+       product_code: 0000001,
+       title: "Blue wedding saree",
+       price: 38,
+       description: "Beautiful Art silk saree with a matching  unstitched Blouse Piece",
+       size: "free",
+       available_quantity: 5,
+       img_src: "images/bridal/saree_0000001"
     }
-]
+    ],
+    "classic":[
+    {
+       product_code: 0000002,
+       title: "Classic pink saree",
+       price: 40,
+       description: "Beautiful pink silk saree with a matching unstitched Blouse Piece",
+       size: "free",
+       available_quantity: 3,
+       img_src: "images/classic/saree_0000002"
+    }
+	],
+	"bollywood":[
+		{
+	   product_code: 0000002,
+       title: "Classic pink saree",
+       price: 40,
+       description: "Beautiful pink silk saree with a matching unstitched Blouse Piece",
+       size: "free",
+       available_quantity: 3,
+       img_src: "images/classic/saree_0000002"
+		}
+	]
+}
