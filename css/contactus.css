@@ -1,0 +1,6 @@
+.boxed {
+  border: 10px solid black;;
+  border-color: #C24641;
+  width: 50%;
+  display: table;
+}
