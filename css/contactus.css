@@ -3,4 +3,12 @@
   border-color: #C24641;
   width: 50%;
   display: table;
+  padding: 4px 7px;
+  border-radius: 18px; 
+	-moz-border-radius: 18px; 
+	-webkit-border-radius: 18px; 
+	border: 4px ridge #800000;
+	padding: 55px 10px 45px;
+	padding-left: 30px;
+    padding-right: 30px;
 }
