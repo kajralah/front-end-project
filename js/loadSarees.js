@@ -1,9 +1,9 @@
 function default_product(title,img){
-	var result="";
+	var result="<div id=\"product\"";
 	img += "_small.jpg";
 	var image = "<img src="+'"'+img+"\" id=\"img\" />";
 	result += "<figure>"+image+"<figcaption><p>";
-	result += title+"</p></figcaption></figure>";
+	result += title+"</p></figcaption></figure></div>";
 	return result;
 }
 
@@ -14,8 +14,17 @@ function getData(type_of_saree){
 }
 
 function getSaree(data){
-	for(var iter=0;iter < (data.length)/3 ;iter++){
-		var row = document.createElement("div");
-		$('.row').append("<div id=\"product_div\">"+ default_product(data[0]['title'],data[0]['img_src']) + "</div>");
-	}
+	$("#result").append(data.length + " result found");
+	var c = 0;
+	for(var row = 0; row < Math.floor((data.length)/3 + 1) ; row++){
+		var div = document.createElement('div');
+		div.id = "product_div";
+		for(var cel= c ;cel < c + 3 ;cel++){
+			if(cel < data.length){
+				div.innerHTML += default_product(data[cel]['title'],data[cel]['img_src']);
+			}
+		}
+		$(".row").append(div);
+		c+=3;
+	}	
 }
