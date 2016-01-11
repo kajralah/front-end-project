@@ -13,7 +13,7 @@
  
     
     <link href="css/bootstrap.min.css" rel="stylesheet">
-   <link href="css/index_css.css" rel="stylesheet">
+    <link href="css/index_css.css" rel="stylesheet">
     <link href="css/shop-homepage.css" rel="stylesheet">
 
 </head>
@@ -27,7 +27,7 @@
                     <ul>
                      <li><a href="index.html">Home</a></li>
                      <li>
-                        <a href="#">Sarees <span class="arrow">&#9660;</span></a>
+                        <a href="#">Sarees</a>
                         <ul class="sub-menu">
                             <li><a href="classic sarees.html">Classic</a></li>
                             <li><a href="bridal sarees.html">Bridal</a></li>
@@ -36,14 +36,20 @@
                     </li>
                     <li><a href="#">Lehengas</a>
                         <ul class="sub-menu">
-                            <li><a href="#">Wedding</a></li>
-                            <li><a href="#">Bollywood</a></li>
+                            <li><a href="wedding.html">Wedding</a></li>
+                            <li><a href="bollywood.html">Bollywood</a></li>
                         </ul>
                     </li>
                 <li><a href="#">Kurti</a></li>
-                <li><a href="#">Accessories</a></li>
-                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Accessories</a>
+                        <ul class="sub-menu">
+                            <li><a href="earrings.html">Earrings</a></li>
+                            <li><a href="necklaces.html">Necklaces</a></li>
+                            <li><a href="bracelets.html">Bracelets</a></li>
+                        </ul>
+                <li><a href="contactus.html">Contact us</a></li>
             </ul>
+
             </nav>
         </div>
            <!--
@@ -110,10 +116,46 @@
 
                 </div>
 
-        <div id="test">
-        </div>
     </div>
-    <!-- /.container -->
+
+
+
+            <div class="col-md-9">
+
+                <div class="row carousel-holder">
+
+                    <div class="col-md-12">
+                        <div id="carousel-example-gen" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-example-gen" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example-gen" data-slide-to="1"></li>
+                                <li data-target="#carousel-example-gen" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img class="slide-image" src="images/banner/Banner2.jpg" alt="">
+                                </div>
+                                <div class="item">
+                                    <img class="slide-image" src="images/banner/Banner1.jpg" alt="">
+                                </div>
+                                <div class="item">
+                                    <img class="slide-image" src="http://placehold.it/800x300" alt="">
+                                </div>
+                            </div>
+                            <a class="left carousel-control" href="#carousel-example-gen" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                            </a>
+                            <a class="right carousel-control" href="#carousel-example-gen" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+    </div>
+  </div> <!--row-->
+</div> <!-- /.container -->
 
     <div class="container">
         <!-- Footer -->
@@ -130,6 +172,8 @@
     <script src="js/jquery-2.2.0.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/loadSarees.js"></script>
+
+
 
 </body>
 </html>
