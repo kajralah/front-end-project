@@ -16,3 +16,13 @@
     margin-top: 100px;
     margin-left: 10px;
 }
+
+.box{
+  background-color: #e6007e;
+  width: 20%;
+  height: 50%;
+  border:10px solid #e6007e;
+  margin-top: -25px;
+  margin-left: 510px;
+
+}
