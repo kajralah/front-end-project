@@ -1,14 +1,17 @@
 .boxed {
-  border: 10px solid black;;
-  border-color: #C24641;
-  width: 50%;
-  display: table;
-  padding: 4px 7px;
-  border-radius: 18px; 
-	-moz-border-radius: 18px; 
-	-webkit-border-radius: 18px; 
-	border: 4px ridge #800000;
-	padding: 55px 10px 45px;
+ 	
+
+ 	background-color: #fff;
+ 	
+  	width: 50%;
+  	
+	border: 10px solid #e6007e;
+    border-radius: 9px;
+	
+	padding: 15px;
 	padding-left: 30px;
     padding-right: 30px;
+    margin-left: 20px;
+    margin-right: 70px;
+   
 }
