@@ -1,101 +1,23 @@
-.menu-wrap {
-    width:100%;
-    box-shadow:0px 1px 3px rgba(0,0,0,0.2);
-    background:#3e3436;
-}
- 
-.menu {
-    width:1000px;
-    margin:0px auto;
-}
- 
-.menu li {
-    margin:0px;
-    list-style:none;
-    font-family:'Ek Mukta';
-}
- 
-.menu a {
-    transition:all linear 0.15s;
-    color:#919191;
-}
- 
-.menu li:hover > a, .menu .current-item > a {
-    text-decoration:none;
-    color:#be5b70;
-}
- 
-.menu .arrow {
-    font-size:11px;
-    line-height:0%;
-}
- 
-/*----- Top Level -----*/
-.menu > ul > li {
-    float:left;
-    display:inline-block;
-    position:relative;
-    font-size:19px;
-}
- 
-.menu > ul > li > a {
-    padding:10px 40px;
-    display:inline-block;
-    text-shadow:0px 1px 0px rgba(0,0,0,0.4);
-}
- 
-.menu > ul > li:hover > a, .menu > ul > .current-item > a {
-    background:#2e2728;
-}
- 
-/*----- Bottom Level -----*/
-.menu li:hover .sub-menu {
-    z-index:1;
-    opacity:1;
-}
- 
-.sub-menu {
-    width:160%;
-    padding:5px 0px;
-    position:absolute;
-    top:100%;
-    left:0px;
-    z-index:-1;
-    opacity:0;
-    transition:opacity linear 0.15s;
-    box-shadow:0px 2px 3px rgba(0,0,0,0.2);
-    background:#2e2728;
-}
- 
-.sub-menu li {
-    display:block;
-    font-size:16px;
-}
- 
-.sub-menu li a {
-    padding:10px 30px;
-    display:block;
-}
- 
-.sub-menu li a:hover, .sub-menu .current-item a {
-    background:#3e3436;
-}
-
-
 img{
     width: 200px;
     height: 275px;
+    margin-top: 10px;
 }
 
 #product_div{
-    width: 1000px;
-    overflow-y: hidden;
-    text-align:center;
-    margin-top: 100px;
+    width: 900px;
+    margin-top: 80px;
+    margin-left: 100px;
+    margin-bottom: -70px;
 }
+
+#article{
+	margin-left: -70px;
+}
+
 #product{
     width: 300px;
-    height: 300px;
+    height: 350px;
     display: inline-block;
 }
 
@@ -103,5 +25,20 @@ body{
     background:url(https://s3.amazonaws.com/Syntaxxx/background-gold-bokeh.jpg) center center fixed;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+    border: 2px solid #BEBEBE;
+    background-color: white;
+}
+
+#container{
+	max-width: 1000px;
+	background-color:#F8F8F8;
+	margin-left: 200px;
+}
+
+#view_button{
+	margin-left: 100px;
+	width:25%;
 }
 

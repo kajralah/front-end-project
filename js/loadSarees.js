@@ -1,19 +1,22 @@
-function default_product(title,img){
+var App = function () {}
+
+App.default_product = function(title,img,price){
 	var result="<div id=\"product\"";
 	img += "_small.jpg";
 	var image = "<img src="+'"'+img+"\" id=\"img\" />";
-	result += "<figure>"+image+"<figcaption><p>";
-	result += title+"</p></figcaption></figure></div>";
+	result += "<figure align=\"center\">"+image+"<figcaption><p><strong>";
+	result += title+"</strong></p><p><strong>Price: "+price+" BGN</strong>"
+	result += "  <button id=\"view_button\">View</button></p></figcaption></figure></div>";
 	return result;
 }
 
-function getData(type_of_saree){
-   $.getJSON('product_json/sarees.json',function(data){
-   		getSaree(data[type_of_saree]);
+App.getProduct = function(product,type_of_product) {
+  $.getJSON('product_json/'+product+'.json',function(data){
+   		App.showProducts(data[type_of_product]);
    });
 }
 
-function getSaree(data){
+App.showProducts = function(data){
 	$("#result").append(data.length + " result found");
 	var c = 0;
 	for(var row = 0; row < Math.floor((data.length)/3 + 1) ; row++){
@@ -21,7 +24,7 @@ function getSaree(data){
 		div.id = "product_div";
 		for(var cel= c ;cel < c + 3 ;cel++){
 			if(cel < data.length){
-				div.innerHTML += default_product(data[cel]['title'],data[cel]['img_src']);
+				div.innerHTML += App.default_product(data[cel]['title'],data[cel]['img_src'],data[cel]['price']);
 			}
 		}
 		$(".row").append(div);
