@@ -9,14 +9,14 @@ a {text-decoration: none;}
 }
 .toggleMenu {
     display:  none;
-    background: #666;
+    background: #FFFFCC;
     padding: 10px 15px;
-    color: #fff;
+    color: #FFFFCC;
 }
 .nav {
     list-style: none;
      *zoom: 1;
-     background:#00000;
+     background:#FFFFCC;
 }
 .nav:before,
 .nav:after {
@@ -32,7 +32,7 @@ a {text-decoration: none;}
 }
 .nav a {
     padding: 10px 15px;
-    color:#fff;
+    color:#000;
 }
 .nav li {
     position: relative;
@@ -40,7 +40,7 @@ a {text-decoration: none;}
 }
 .nav > li {
     float: left;
-    border-top: 1px solid #00000;
+    border-top: 1px solid #FFFFCC;
 }
 .nav > li > .parent {
     background-repeat: no-repeat;
@@ -55,22 +55,24 @@ a {text-decoration: none;}
 }
 .nav > li.hover > ul {
     left: 0;
+    background-color: #FFFFCC;
 }
 .nav li li.hover ul {
     left: 100%;
     top: 0;
+    background-color: #FFFFCC;
 }
 .nav li li a {
     display: block;
-    background: #222222;
+    background: #FFFFCC;
     position: relative;
     z-index:100;
-    border-top: 1px solid #000000;
+    border-top: 2px solid #ffffff; /*na border*/
 }
 .nav li li li a {
-    background:#222222;
+    background:;
     z-index:200;
-    border-top: 1px solid #000000;
+    border-top: 1px solid #FFFFCC;
 }
 
 @media screen and (max-width: 768px) {
@@ -81,11 +83,6 @@ a {text-decoration: none;}
         float: none;
     }
     .nav > li > .parent {
-        background-position: 95% 50%;
-    }
-    .nav li li .parent {
-        background-image: url("images/downArrow.png");
-        background-repeat: no-repeat;
         background-position: 95% 50%;
     }
     .nav ul {

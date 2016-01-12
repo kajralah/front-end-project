@@ -12,13 +12,14 @@ img{
 }
 
 #article{
-	margin-left: -70px;
+	margin-left: 0px;
 }
 
 #product{
     width: 300px;
     height: 350px;
     display: inline-block;
+    border: 0.5px outset #f8f8f8;
 }
 
 body{
@@ -27,18 +28,13 @@ body{
     background-size: cover;
 }
 
-    border: 2px solid #BEBEBE;
-    background-color: white;
-}
-
 #container{
 	max-width: 1000px;
-	background-color:#F8F8F8;
 	margin-left: 200px;
+    height: 1000px;
 }
 
 #view_button{
 	margin-left: 100px;
 	width:25%;
 }
-
