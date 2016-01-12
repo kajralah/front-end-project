@@ -98,3 +98,10 @@ img{
     height: 300px;
     display: inline-block;
 }
+
+body{
+    background:url(https://s3.amazonaws.com/Syntaxxx/background-gold-bokeh.jpg) center center fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
