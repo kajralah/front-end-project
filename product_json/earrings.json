@@ -1,0 +1,47 @@
+{
+  "earrings":
+    [
+      { "product_code": "0000001",
+        "title": "Jewellery Gold Plated with Mother of Pearl Multicolor Earring",
+        "price": "30.50",
+        "description": "",
+        "available_quantity": "3",
+        "img_src": "images/jewelry/earrings/0000001"
+      },
+      { "product_code": "0000002",
+        "title": "Jewellery Stones with Pearl Silver Chandbali Earring",
+        "price": "50.99",
+        "description": "Chand Bali earrings are beautifully designed half moon earrings, set with diamonds, gemstone and pearl.",
+        "available_quantity": "2s",
+        "img_src": "images/jewelry/earrings/0000002"
+      },
+      { "product_code": "0000003",
+        "title": "Karigari Gold Toned Earrings Dangler With Red Enamel & Small White Pearl",
+        "price": "40.99",
+        "description": "Width: 4.5mm , Length : 7mm",
+        "available_quantity": "4",
+        "img_src": "images/jewelry/earrings/0000003"
+      },
+      { "product_code": "0000004",
+        "title": "Party wear Bollywood chandelier fashion earring",
+        "price": "10.99",
+        "description": "Alloy made gold plated with antique BLACK finishing earring.It is light weight fashion earrings studded with stones",
+        "available_quantity": "10",
+        "img_src": "images/jewelry/earrings/0000004"
+      },
+      { "product_code": "0000005",
+        "title": "Antique Gold Plated Indian Bridal Bollywood Earrings",
+        "price": "19.99",
+        "description": "Approx Size: Length: 4.5 cm Approx, Diameter of the Jhumki: 4.5 cm ",
+        "available_quantity": "15",
+        "img_src": "images/jewelry/earrings/0000005"
+      },
+      { "product_code": "0000006",
+        "title": "Bollywood Daphne Polki Earrings with Pearl",
+        "price": "30.99",
+        "description": "",
+        "available_quantity": "14",
+        "img_src": "images/jewelry/earrings/0000006"
+      }
+    ]
+}

@@ -1,61 +1,43 @@
-{"wedding":[
-    { "product_code": "0000001",
-       "title": "Blue wedding saree",
-       "price": "38",
-       "description": "Beautiful Art silk saree with a matching  unstitched Blouse Piece",
-       "size": "free",
-       "available_quantity": "5",
-       "img_src": "images/lehenga/wedding/wedding_0000005"
-   }
-],
+{
+  "bridal":
+    [
+      { "product_code": "0000001",
+        "title": "Blue wedding lehenga",
+        "price": "38",
+        "description": "Beautiful Art silk saree with a matching  unstitched Blouse Piece",
+        "size": "free",
+         "available_quantity": "5",
+         "img_src": "images/lehenga/wedding/wedding_0000005"
+      }
+    ],
 
-"bollywood":[
-    {
-       "product_code": "0000001",
-      "title": "Classic pink lehenga",
-       "price": "40",
-       "description": "Beautiful pink silk lehenga with a matching  Blouse Top Piece",
-       "size": "free",
-       "available_quantity": "3",
-       "img_src": "images/lehenga/bollywood/lehenga_0000005"
-    },
-    {
-       "product_code": "0000002",
-      "title": "White lehenga with purple lining",
-       "price": "40",
-       "description": "Beautiful white lehenga with purple border with a matching Blouse Top Piece",
-       "size": "free",
-       "available_quantity": "3",
-       "img_src": "images/lehenga/bollywood/lehenga_0000007"
-    },
-    {
-       "product_code": "0000003",
-      "title": "Light golden lehenga with light and dark pink decorations",
-       "price": "40",
-       "description": "Beautiful light golden legenga",
-       "size": "free",
-       "available_quantity": "3",
-       "img_src": "images/lehenga/bollywood/lehenga_0000006"
-    },
-    {
-       "product_code": "0000002",
-      "title": "Classic pink saree",
-       "price": "40",
-       "description": "Beautiful pink silk saree with a matching unstitched Blouse Piece",
-       "size": "free",
-       "available_quantity": "3",
-       "img_src": "images/sarees/classic/saree_0000002"
-    }
-	],
-	"bollywood":[
-		{
-	   "product_code": "0000003",
-       "title": "Classic red saree",
-       "price": 40,
-       "description": "Beautiful pink silk saree with a matching unstitched Blouse Piece",
-       "size": "free",
-       "available_quantity": "3",
-       "img_src": "/images/sarees/classic/saree_0000002"
-		}
-	]
+  "bollywood":[
+      {
+        "product_code": "0000001",
+        "title": "Classic pink lehenga",
+        "price": "40",
+        "description": "Beautiful pink silk lehenga with a matching  Blouse Top Piece",
+        "size": "free",
+        "available_quantity": "3",
+        "img_src": "images/lehenga/bollywood/lehenga_0000005"
+      },
+      {
+        "product_code": "0000002",
+        "title": "White lehenga with purple lining",
+        "price": "40",
+        "description": "Beautiful white lehenga with purple border with a matching Blouse Top Piece",
+        "size": "free",
+        "available_quantity": "3",
+        "img_src": "images/lehenga/bollywood/lehenga_0000007"
+      },
+      {
+        "product_code": "0000003",
+        "title": "Light golden lehenga with light and dark pink decorations",
+        "price": "40",
+        "description": "Beautiful light golden legenga",
+        "size": "free",
+        "available_quantity": "3",
+        "img_src": "images/lehenga/bollywood/lehenga_0000006"
+      },
+	  ]
 }

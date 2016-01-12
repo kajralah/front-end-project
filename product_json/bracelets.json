@@ -1,0 +1,40 @@
+{
+  "bracelets":
+    [
+      { "product_code": "0000001",
+        "title": "Indian traditional gold plated kundan Bangle",
+        "price": "26.50",
+        "description": "It is made of Alloy studded with the crystal colored stones with traditional work and gold plating ,which gives it a Elegant Ethnic look",
+        "available_quantity": "4",
+        "img_src": "images/jewelry/bracelets/0000001"
+      },
+      { "product_code": "0000002",
+        "title": "Indian Kangan Gold Plated 2 Bangles Bracelets Ethnic",
+        "price": "9.99",
+        "description": "Bracelet size: 6.6 cm (diameter)",
+        "available_quantity": "10",
+        "img_src": "images/jewelry/bracelets/0000002"
+      },
+      { "product_code": "0000003",
+        "title": "Ethnic Indian bangle bracelets",
+        "price": "25.99",
+        "description": "Multi Color set of bracelets",
+        "available_quantity": "10",
+        "img_src": "images/jewelry/bracelets/0000003"
+      },      
+      { "product_code": "0000004",
+        "title": "Ethnic Indian bangle bracelets - green",
+        "price": "29.99",
+        "description": "Green set of bracelets",
+        "available_quantity": "10",
+        "img_src": "images/jewelry/bracelets/0000004"
+      },
+      { "product_code": "0000005",
+        "title": "White pearl indian traditional bridal jewelry",
+        "price": "49.99",
+        "description": "Designer Gold Tone Royal Bridal Hand Bracelet Studded With White Crystal Kundan",
+        "available_quantity": "10",
+        "img_src": "images/jewelry/bracelets/0000005"
+      }
+    ]
+}

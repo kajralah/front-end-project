@@ -1,0 +1,61 @@
+{
+  "sets":
+    [
+      { "product_code": "0000001",
+        "title": "Sukkhi Splendid Gold Plated Necklace Set",
+        "price": "17.50",
+        "description": "This Sukkhi Splendid Gold Plated Necklace Set is made of alloy.This set features a unique one of a kind traditional embellish with antic finish.",
+         "available_quantity": "2",
+         "img_src": "images/jewelry/sets/0000001"
+      },
+      { "product_code": "0000002",
+        "title": "Sukkhi Gold Plated Necklace Set - Green",
+        "price": "32",
+        "description": "This Sukkhi Splendid Gold Plated Necklace Set is made of alloy.This set features a unique one of a kind traditional embellish with antic finish.",
+         "available_quantity": "5",
+         "img_src": "images/jewelry/sets/0000002"
+      },
+      { "product_code": "0000003",
+        "title": "Fascinating Gold Plated Necklace Set",
+        "price": "18",
+        "description": "This Sukkhi Splendid Gold Plated Necklace Set is made of alloy.This set features a unique one of a kind traditional embellish with antic finish.",
+         "available_quantity": "5",
+         "img_src": "images/jewelry/sets/0000003"
+      },
+      { "product_code": "0000004",
+        "title": "Elegant Gold Plated Necklace Set - Red",
+        "price": "19.99",
+        "description": "This Sukkhi Splendid Gold Plated Necklace Set is made of alloy.This set features a unique one of a kind traditional embellish with antic finish.",
+         "available_quantity": "4",
+         "img_src": "images/jewelry/sets/0000004"
+      },
+      { "product_code": "0000005",
+        "title": "Sukkhi Gold Plated Necklace Set, Set of 5 Changeable Stone",
+        "price": "29.99",
+        "description": "This Sukkhi Attractive Gold Plated Necklace Set with Set of 5 Changeable Stone is made of alloy.This set features a unique one of a kind traditional embellish with antic finish.",
+         "available_quantity": "2",
+         "img_src": "images/jewelry/sets/0000005"
+      },
+      { "product_code": "0000006",
+        "title": "Sukkhi Sublime Gold Plated Temple Jewellery Necklace Set",
+        "price": "15.99",
+        "description": "This Sukkhi Attractive Gold Plated Necklace Set is made of alloy.This set features a unique one of a kind traditional embellish with antic finish.",
+         "available_quantity": "7",
+         "img_src": "images/jewelry/sets/0000006"
+      },
+      { "product_code": "0000007",
+        "title": "Sukkhi Intricately Crafted Gold Plated Necklace Set",
+        "price": "13.99",
+        "description": "This Sukkhi Attractive Gold Plated Necklace Set is made of alloy.This set features a unique one of a kind traditional embellish with antic finish.",
+         "available_quantity": "4",
+         "img_src": "images/jewelry/sets/0000007"
+      },
+      { "product_code": "0000008",
+        "title": "Sukkhi Fabulous Gold Plated Necklace Set- Purple",
+        "price": "20.99",
+        "description": "This Sukkhi Attractive Gold Plated Necklace Set is made of alloy.This set features a unique one of a kind traditional embellish with antic finish.",
+         "available_quantity": "6",
+         "img_src": "images/jewelry/sets/0000008"
+      }
+    ]
+}

@@ -11,17 +11,14 @@
 
     <title>Indian beauty</title>
  
-    
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-   <link href="css/index_css.css" rel="stylesheet">
-       <link href="css/nav.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/index_css.css" rel="stylesheet">
+    <link href="css/nav.css" rel="stylesheet">
     <link href="css/shop-homepage.css" rel="stylesheet">
 
 </head>
 
-<body style="background-color:#F8F8F8">
-
-    
+<body>
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <a class="toggleMenu" href="#">Menu</a>
@@ -47,7 +44,7 @@
                     <a href="#">Accessories</a>
                     <ul>
                         <li><a href="earrings.html">Earrings</a></li>
-                        <li><a href="necklaces.html">Necklaces</a></li>
+                        <li><a href="sets.html">Jewelry sets</a></li>
                         <li><a href="bracelets.html">Bracelets</a></li>
                     </ul>
                 </li>
@@ -56,28 +53,24 @@
         </div>
     </nav>
 
-    <!-- Page Content -->
-    <div class="container">
-        <div class="row">
-
+    <div class="container" id="container">
+        <div class="row" id="row">
+            <article id="article">
+                <h2 align="center">Bollywood lehengas</h2>
+                <p id="result" align="center"></p>
+            </article>
         </div>
     </div>
-
-    <!--  
-        <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p align = "right">Copyright &copy; Your Website 2014</p>
-                </div>
-            </div>
-        </footer> -->
-
 
     <script src="js/jquery-2.2.0.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/loadSarees.js"></script>
     <script src="js/nav.js"></script>
-
+    <script>
+        $( document ).ready(function(){
+            lehengas.getProduct('bollywood');
+        });
+    </script>
 </body>
 
 </html>
