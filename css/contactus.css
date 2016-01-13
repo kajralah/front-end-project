@@ -22,7 +22,13 @@
   width: 20%;
   height: 50%;
   border:10px solid #e6007e;
-  margin-top: -25px;
+  margin-top: -15px;
   margin-left: 510px;
+  
+}
 
+footer {
+  margin-right: auto;
+  margin-right: auto;
+  text-align: center;
 }
