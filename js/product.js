@@ -1,24 +1,47 @@
 var Product = function() {}
 
 Product.getParam = function (parameter){
-	var parameters = parameter.split('+');
+	var parameters = parameter.split('&');
 	var type_of_product = parameters[0];
 	var product_code = parameters[1];
 	var sub_type_of_product = parameters[2];
-
+	Product.viewProduct	(type_of_product,product_code,sub_type_of_product);
 }
 
-Product.viewProduct = function(type,product_code,type_of_product){
-	  $.getJSON('product_json/'+type+'.json',function(data){
-   		getProduct(data[type_of_product],product_code);
+Product.viewProduct = function(type_of_product,product_code,sub_type_of_product){
+	  $.getJSON('product_json/'+type_of_product+'.json',function(data){
+   		return Product.getProduct(data[sub_type_of_product],product_code);
    });
 }
 
-Product.getProduct = function(data,product_code) {
-	var product_data;
+Product.getProduct = function(data,product_code){
 	for(var i=0;i<data.length;i++){
-		if(data[i][product_code] === product_code){
-			product_code = data[i][product_code];
+		if(data[i]['product_code'] === product_code){
+			/*the product we want*/
+			var product_data = data[i];
+			return Product.visualizeProduct(product_data);
 		}
 	}
+}
+
+Product.visualizeProduct = function(product_data) {
+
+	/*now we add the product content in the div*/
+	var result="<div style=\"display : flex\">";
+
+	var img = product_data['img_src']+ "_big.jpg";
+	var image = "<img src="+'"'+img+"\" id=\"img\" />";
+
+	result += "<div id=\"product_image\">"+image+"</div>";
+
+	/*vertical line*/
+	result += "<div style=\"border-left: solid rgba(255, 255, 255, 0);\"></div>";
+
+	result += "<div id=\"product_info\"><div id=\"title\"><h2><strong>"+product_data['title']+"</strong></h2></div>"
+	result += "<div id=\"product_price\"><p><strong>Price: "+product_data['price']+" BGN</strong></p>"
+	result += "<h6>Available quantity: "+product_data['available_quantity']+" pieces</h6>"
+	result += "<div id=\"description\"><h4>Description:</h4><p>"+product_data['description']+"</p></div></div></div></div>"
+
+	/*appending it in the html page*/
+	$('.row').append(result);
 }
