@@ -1,5 +1,5 @@
 img{
-    width: 200px;
+    width: 500px;
     height: 275px;
     margin-top: 10px;
     float: left;
@@ -76,4 +76,9 @@ body{
 #fig{
     width: 80%;
     margin-top: 10px;
+
+footer {
+  margin-right: auto;
+  margin-right: auto;
+  text-align: center;
 }
