@@ -1,8 +1,7 @@
 img{
-    width: 600px;
+    width: 700px;
     height: 300px;
-    margin-right:5px;
-    margin-left: 30px;
+    margin-left: 15px;
     float: left;
 }
 
@@ -82,4 +81,8 @@ footer {
   margin-right: center;
   margin-right: center;
   text-align: center;
+}
+
+#rows{
+    margin-top: -100px;
 }
