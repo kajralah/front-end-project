@@ -30,18 +30,30 @@ Product.visualizeProduct = function(product_data) {
 	var result="<div style=\"display : flex\">";
 
 	var img = product_data['img_src']+ "_big.jpg";
-	var image = "<img src="+'"'+img+"\" id=\"img\" />";
+	var image = "<img src="+'"'+img+"\" id=\"img\" height=\"450\" width=\"350\"/>";
 
 	result += "<div id=\"product_image\">"+image+"</div>";
 
 	/*vertical line*/
 	result += "<div style=\"border-left: solid rgba(255, 255, 255, 0);\"></div>";
 
-	result += "<div id=\"product_info\"><div id=\"title\"><h2><strong>"+product_data['title']+"</strong></h2></div>"
-	result += "<div id=\"product_price\"><p><strong>Price: "+product_data['price']+" BGN</strong></p>"
-	result += "<h6>Available quantity: "+product_data['available_quantity']+" pieces</h6>"
-	result += "<div id=\"description\"><h4>Description:</h4><p>"+product_data['description']+"</p></div></div></div></div>"
-
+	result += "<div id=\"product_info\"><div id=\"title\"><h2><strong>"+product_data['title']+"</strong></h2></div>";
+	result += "<div id=\"product_price\"><p><strong>Price: "+product_data['price']+" BGN</strong></p>";
+	result += "<h6>Available quantity: "+product_data['available_quantity']+" pieces</h6>";
+	result += "<button 	onclick=\"Product.buy('"+product_data['title'] +"','"+product_data['price']+"')\">Buy!</button>";
+	result += "<div id=\"description\"><h4><b>Description:<b></h4><p>"+product_data['description']+"</p></div></div></div></div>";
 	/*appending it in the html page*/
 	$('.row').append(result);
+}
+
+Product.buy = function(title,price){
+	$.ajax({
+  		method: "POST",
+  		url: "buy.html",
+  		data: 'title='+title+',price='+price;
+	});
+	/*.done(function(){
+		window.open("buy.html",'_self',false);
+	});*/
+	/*window.open("view_product.html"+"?myParam="+title,'_self',false);*/
 }
