@@ -1,4 +1,4 @@
-img{
+#slide_img{
     width: 600px;
     height: 300px;
     margin-right:5px;
@@ -82,4 +82,10 @@ footer {
   margin-right: center;
   margin-right: center;
   text-align: center;
+}
+
+#little_img{
+    width:500px;
+    height: 275px;
+    margin-top: 10px;
 }
