@@ -47,13 +47,9 @@ Product.visualizeProduct = function(product_data) {
 }
 
 Product.buy = function(title,price){
-	$.ajax({
-  		method: "POST",
-  		url: "buy.html",
-  		data: 'title='+title+',price='+price;
-	});
+}
+
 	/*.done(function(){
 		window.open("buy.html",'_self',false);
 	});*/
 	/*window.open("view_product.html"+"?myParam="+title,'_self',false);*/
-}
