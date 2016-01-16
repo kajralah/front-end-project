@@ -83,6 +83,9 @@ footer {
   text-align: center;
 }
 
+#rows{
+    margin-top: -100px;
+}
 #little_img{
     width:500px;
     height: 275px;
