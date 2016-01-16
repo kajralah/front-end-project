@@ -25,7 +25,7 @@
 }
 
 body{
-    background:url(https://s3.amazonaws.com/Syntaxxx/background-gold-bokeh.jpg) center center fixed;
+    background:url("../images/background/backgr.jpg") center center fixed;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -42,8 +42,8 @@ body{
 }
 
 #rows{
-    margin-top:150px;
-    margin-left:-150px;
+    margin-top:100px;
+    margin-left:-100px;
 }
 
 #product_image{
@@ -77,17 +77,21 @@ body{
     width: 80%;
     margin-top: 10px;
 
-footer {
+footer{
   margin-right: center;
   margin-right: center;
   text-align: center;
 }
 
-#rows{
-    margin-top: -100px;
-}
 #little_img{
     width:500px;
     height: 275px;
     margin-top: 10px;
+}
+
+decoration {
+    margin-top: -10px;
+    background-repeat: repeat-x;
+    height: 800px;
+    width: 800px;
 }
