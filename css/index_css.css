@@ -34,6 +34,7 @@ body{
 	max-width: 1000px;
 	margin-left: 200px;
     height: 1000px;
+    margin-top: -100px;
 }
 
 #view_button{
@@ -42,13 +43,16 @@ body{
 }
 
 #rows{
-    margin-top:60px;
+    margin-top: 100px;
+}
+#index_row{
+    margin-top: 50px;
 }
 
 #product_image{
     width: 49%;
-    float:left;
     border: 0px solid;
+    margin-right: 120px;
 }
 
 #title{
@@ -88,15 +92,10 @@ footer{
     margin-top: 10px;
 }
 
-decoration {
-    margin-top: -10px;
-    background-repeat: repeat-x;
-    height: 800px;
-    width: 800px;
-
 #product_buy{
     margin-top:40px;
 }
 
 #product_row{
     margin-top: 900px;
+}
