@@ -2,9 +2,21 @@ var express = require("express");
 var app     = express();
 var path    = require("path");
 
+
+var bodyParser = require('body-parser')
+app.use( bodyParser.json() );
+app.use(bodyParser.urlencoded({
+  extended: true
+})); 
+
 app.listen(8080,function(){
   console.log("Started on PORT 8080");
 })
+
+
+var favicon = require('serve-favicon');
+
+app.use("/favicon.ico",favicon(__dirname + '/public/images/favicon.ico'));
 
 app.use("/css", express.static(__dirname + '/css'));
 
@@ -22,11 +34,6 @@ app.get('/',function(req,res){
   res.sendFile(path.join(__dirname+'/index.html'));
 });
 
-/*
-app.post('/buy',function(req,res){
-  var title = req.body.title;
-  var img = req.body.img;
-  var price = req.body.price;
-  console.log("title "+title + "price "+price);
-  res.end("yes");
-});*/
+app.post('/finishBuying',function(req,res){
+	res.send(req.body.address);
+});	

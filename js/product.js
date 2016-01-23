@@ -52,7 +52,7 @@ Product.buy = function(product_title){
 
 Product.buy_info = function(data){
 	var data = data.split(',');
-	var title = data[0].replace(/%20/g,'')
+	var title = data[0].replace(/%20/g,' ')
 	var img = data[1];
 	var price = data[2];
 	var image = "<img src="+'"'+img+"\" id=\"img\" height=\"350\" width=\"250\"/>";
@@ -61,4 +61,16 @@ Product.buy_info = function(data){
 	result += "<figure>"+image+"<figcaption id=\"fig\"><p><strong>";
 	result += title+"</strong></p></figcaption></figure><p><strong>Price: "+price+" BGN</strong>"
 	$("#product_buy_info").append(result);
+}
+
+Product.sendBuydata = function(){
+        $.post("/finishBuying", {'first_name':$("#first_name").val(),
+				                'second_name':$("#second_name").val(),'email':$("#email").val(),
+				                'city':$("#city").val(),'econt':$("#econt").val(),
+				                'speedy':$("#speedy").val(),'address':$("#optAddress").val()
+           						},
+                function(data){
+                	window.open("finishBuying.html"+"?myParam="+data,'_self',false);
+                }
+        );
 }
