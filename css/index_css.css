@@ -6,6 +6,11 @@
     float: left;
 }
 
+#inner{
+    width: 1080px;
+    height: 540px;
+}
+
 #product_div{
     width: 900px;
     margin-top: 80px;
