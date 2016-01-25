@@ -24,6 +24,30 @@
         "size": "S,M,L & XL",
          "available_quantity": "12",
          "img_src": "images/kurti/kurti_0000003"
+      },
+      { "product_code": "0000004",
+        "title": "Printed Cotton Pink Kurti Tunic",
+        "price": "20",
+        "description": "Indian Pink Kurti Tunic",
+        "size": "S,M,L & XL",
+         "available_quantity": "14",
+         "img_src": "images/kurti/kurti_0000004"
+      },
+      { "product_code": "0000005",
+        "title": "Multicolor Kurti Tunic",
+        "price": "24",
+        "description": "Indian Multicolor Kurti Tunic",
+        "size": "S,M,L & XL",
+         "available_quantity": "10",
+         "img_src": "images/kurti/kurti_0000005"
+      },
+      { "product_code": "0000006",
+        "title": "Pink Kurti Tunic",
+        "price": "14",
+        "description": "Indian light pink Kurti Tunic",
+        "size": "S,M,L & XL",
+         "available_quantity": "10",
+         "img_src": "images/kurti/kurti_0000006"
       }
     ]
 }
