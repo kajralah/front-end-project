@@ -9,9 +9,9 @@ Product.getParam = function (parameter){
 }
 
 Product.viewProduct = function(type_of_product,product_code,sub_type_of_product,is_for_buy){
-	  $.getJSON('product_json/'+type_of_product+'.json',function(data){
-   		return Product.getProduct(data[sub_type_of_product],product_code,type_of_product,sub_type_of_product);
-   });
+	$.getJSON('product_json/'+type_of_product+'.json',function(data){
+	   	return Product.getProduct(data[sub_type_of_product],product_code,type_of_product,sub_type_of_product);
+    });
 }
 
 Product.getProduct = function(data,product_code,type_of_product,sub_type_of_product){

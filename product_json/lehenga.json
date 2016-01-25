@@ -2,42 +2,135 @@
   "bridal":
     [
       { "product_code": "0000001",
-        "title": "Blue wedding lehenga",
-        "price": "38",
-        "description": "Beautiful Art silk saree with a matching  unstitched Blouse Piece",
+        "title": "Pink wedding lehenga",
+        "price": "48",
+        "description": "Beautiful Art silk lehenga with a matching unstitched Blouse Piece",
         "size": "free",
-         "available_quantity": "5",
-         "img_src": "images/lehenga/wedding/wedding_0000005"
+         "available_quantity": "3",
+         "img_src": "images/lehenga/bridal/bridal_0000001"
+      },
+      { "product_code": "0000003",
+        "title": "White wedding lehenga",
+        "price": "50.99",
+        "description": "Beautiful Art silk white lehenga with a matching unstitched Blouse Piece",
+        "size": "free",
+         "available_quantity": "2",
+         "img_src": "images/lehenga/bridal/bridal_0000003"
+      },
+      { "product_code": "0000005",
+        "title": "Beige wedding lehenga",
+        "price": "59.99",
+        "description": "Beige lehenga with blue decorations",
+        "size": "free",
+         "available_quantity": "4",
+         "img_src": "images/lehenga/bridal/bridal_0000005"
+      },
+      { "product_code": "0000006",
+        "title": "Dark blue lehenga",
+        "price": "79.99",
+        "description": "Blue lehenga with beige decorations",
+        "size": "free",
+         "available_quantity": "1",
+         "img_src": "images/lehenga/bridal/bridal_0000006"
+      },
+      { "product_code": "0000007",
+        "title": "Wedding lehenga",
+        "price": "109.99",
+        "description": "Beige lehenga with blue decorations",
+        "size": "free",
+         "available_quantity": "3",
+         "img_src": "images/lehenga/bridal/bridal_0000007"
+      },
+      { "product_code": "0000009",
+        "title": "White Wedding lehenga with printed peacock",
+        "price": "129.99",
+        "description": "White lehenga with blue decorations and printed peacock",
+        "size": "free",
+         "available_quantity": "3",
+         "img_src": "images/lehenga/bridal/bridal_0000009"
+      },
+      { "product_code": "00000010",
+        "title": "Beige Wedding lehenga",
+        "price": "129.99",
+        "description": "Amazing beige lehenga",
+        "size": "free",
+         "available_quantity": "3",
+         "img_src": "images/lehenga/bridal/bridal_00000010"
       }
     ],
 
   "bollywood":[
       {
         "product_code": "0000001",
-        "title": "Classic pink lehenga",
-        "price": "40",
-        "description": "Beautiful pink silk lehenga with a matching  Blouse Top Piece",
+        "title": "Bollywood blue lehenga",
+        "price": "60",
+        "description": "Beautiful blue silk lehenga with a matching Blouse Top Piece",
         "size": "free",
         "available_quantity": "3",
-        "img_src": "images/lehenga/bollywood/lehenga_0000005"
+        "img_src": "images/lehenga/bollywood/bollywood_0000001"
       },
       {
         "product_code": "0000002",
-        "title": "White lehenga with purple lining",
-        "price": "40",
-        "description": "Beautiful white lehenga with purple border with a matching Blouse Top Piece",
+        "title": "White lehenga with pink lining Katrina Kaif",
+        "price": "70",
+        "description": "Katrina Kaif white lehenga with pink border with a matching Blouse Top Piece",
         "size": "free",
-        "available_quantity": "3",
-        "img_src": "images/lehenga/bollywood/lehenga_0000007"
+        "available_quantity": "4",
+        "img_src": "images/lehenga/bollywood/bollywood_0000002"
       },
       {
         "product_code": "0000003",
-        "title": "Light golden lehenga with light and dark pink decorations",
-        "price": "40",
-        "description": "Beautiful light golden legenga",
+        "title": "Light red lehenga with light decorations",
+        "price": "45",
+        "description": "Light red lehenga with light decorations with roses",
+        "size": "free",
+        "available_quantity": "4",
+        "img_src": "images/lehenga/bollywood/bollywood_0000003"
+      },
+      {
+        "product_code": "0000004",
+        "title": "Madhuri Dixit replica blue lehenga with blouse",
+        "price": "100",
+        "description": "Madhuri Dixit replica blue lehenga from film Aaja Nachle",
+        "size": "free",
+        "available_quantity": "2",
+        "img_src": "images/lehenga/bollywood/bollywood_0000004"
+      },
+      {
+        "product_code": "0000005",
+        "title": "Deepika Padukone replica black lehenga with red decorations",
+        "price": "110",
+        "description": "Deepika Padukone replica black lehenga from film Goliyon Ki Raasleela Ram-Leela",
         "size": "free",
         "available_quantity": "3",
-        "img_src": "images/lehenga/bollywood/lehenga_0000006"
+        "img_src": "images/lehenga/bollywood/bollywood_0000005"
       },
+      {
+        "product_code": "0000006",
+        "title": "Black Red lehenga",
+        "price": "55",
+        "description": "Black lehenga with red blouse",
+        "size": "free",
+        "available_quantity": "3",
+        "img_src": "images/lehenga/bollywood/bollywood_0000006"
+      },
+      {
+        "product_code": "0000007",
+        "title": "Indian Designer Bollywood Replica Lehenga Choli",
+        "price": "70",
+        "description": "Replica Lehenga Choli",
+        "size": "free",
+        "available_quantity": "5",
+        "img_src": "images/lehenga/bollywood/bollywood_0000007"
+      },
+      {
+        "product_code": "0000008",
+        "title": "Indian Lehenga Choli",
+        "price": "50",
+        "description": "Replica Lehenga Choli",
+        "size": "free",
+        "available_quantity": "15",
+        "img_src": "images/lehenga/bollywood/bollywood_0000008"
+      }
 	  ]
 }

@@ -24,5 +24,3 @@ $('#officeButton').click(function(){
 	$('#optAddress').val('Central office in '+city);
 	$('#optionalAddress').show();
 });
-
-$('')

@@ -3,8 +3,8 @@ var jewelry = function () {}
 jewelry.default_product = function(title,img,price){
 	var result="<div id=\"product\"";
 	img += "_small.jpg";
-	var image = "<img src="+'"'+img+"\" id=\"img\" />";
-	result += "<figure align=\"center\">"+image+"<figcaption><p><strong>";
+	var image = "<img src="+'"'+img+"\" id=\"little_img\" />";
+	result += "<figure align=\"center\">"+image+"<figcaption ><p><strong>";
 	result += title+"</strong></p><hr style=\"border:0px\"><p><strong>Price: "+price+" BGN</strong>"
 	result += "  <button id=\"view_button\">View</button></p></figcaption></figure></div>";
 	return result;

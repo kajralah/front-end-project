@@ -8,10 +8,10 @@ App.viewProduct = function(type_of_product,product_code,sub_type_of_product){
 App.default_product = function(title,img,price,type,product_code,type_of_product){
 	var result="<div id=\"product\">";
 	img += "_small.jpg";
-	var image = "<img src="+'"'+img+"\" id=\"little_img\" />";
-	result += "<figure>"+image+"<figcaption id=\"fig\"><p><strong>";
-	result += title+"</strong></p></figcaption></figure><p><strong>Price: "+price+" BGN</strong>"
-	result += "  <button id=\"view_button\" onclick=\"App.viewProduct('"+type +"','"+product_code+"','"+type_of_product+"')\">View</button></p></div>";
+	var image = "<img src="+'"'+img+"\"/>";
+	result += "<figure align=\"center\">"+image+"<figcaption><p><strong>";
+	result += title+"</strong></p><strong>Price: "+price+" BGN</strong><br>"
+	result += "<b><button onclick=\"App.viewProduct('"+type +"','"+product_code+"','"+type_of_product+"')\">View</button></b></figcaption></figure></div>";
 	return result;
 }
 

@@ -1,126 +1,159 @@
 {
   "bridal":[
     { "product_code": "0000001",
-       "title": "Blue wedding saree",
+       "title": "Red wedding saree",
        "price": "38",
        "description": "Beautiful Art silk saree with a matching  unstitched Blouse Piece",
        "size": "free",
        "available_quantity": "5",
        "img_src": "images/sarees/bridal/saree_0000001"
+   },
+   { "product_code": "0000002",
+       "title": "Indian wedding red saree",
+       "price": "50",
+       "description": "Indian wedding designer blouse red sari stone embroidery ",
+       "size": "free",
+       "available_quantity": "3",
+       "img_src": "images/sarees/bridal/saree_0000002"
+   },
+   { "product_code": "0000003",
+       "title": "Red Georgette Wedding Saree",
+       "price": "60",
+       "description": "Red Georgette Indian Bridal Wear Embroidered Traditional Saree",
+       "size": "free",
+       "available_quantity": "5",
+       "img_src": "images/sarees/bridal/saree_0000003"
    }
 ],
 
 "classic":[
     {
-       "product_code": "0000002",
-      "title": "Classic pink saree",
-       "price": "40",
-       "description": "Beautiful pink silk saree with a matching unstitched Blouse Piece",
-       "size": "free",
-       "available_quantity": "3",
-       "img_src": "images/sarees/classic/saree_0000002"
+      "product_code": "0000001",
+      "title": "Classic Blue Saree",
+      "price": "30",
+      "description": "Classic Blue Pure Silk Bandhini Designer Saree",
+      "size": "free",
+      "available_quantity": "3",
+      "img_src": "images/sarees/classic/saree_0000001"
     },
     {
-       "product_code": "0000002",
-      "title": "Classic pink saree",
-       "price": "40",
-       "description": "Beautiful pink silk saree with a matching unstitched Blouse Piece",
-       "size": "free",
-       "available_quantity": "3",
-       "img_src": "images/sarees/classic/saree_0000002"
+      "product_code": "0000002",
+      "title": "Indian classic saree",
+      "price": "50",
+      "description": "INDIAN DESIGNER SAREE LIGHT BLUE",
+      "size": "free",
+      "available_quantity": "5",
+      "img_src": "images/sarees/classic/saree_0000002"
     },
     {
-       "product_code": "0000002",
-      "title": "Classic pink saree",
-       "price": "40",
-       "description": "Beautiful pink silk saree with a matching unstitched Blouse Piece",
-       "size": "free",
-       "available_quantity": "3",
-       "img_src": "images/sarees/classic/saree_0000002"
+      "product_code": "0000003",
+      "title": "Classic Orange Saree",
+      "price": "70",
+      "description": "Designer Orange Color Classic Saree Indian Ethnic",
+      "size": "free",
+      "available_quantity": "6",
+      "img_src": "images/sarees/classic/saree_0000003"
     },
     {
-       "product_code": "0000002",
+      "product_code": "0000004",
       "title": "Classic pink saree",
-       "price": "40",
-       "description": "Beautiful pink silk saree with a matching unstitched Blouse Piece",
-       "size": "free",
-       "available_quantity": "3",
-       "img_src": "images/sarees/classic/saree_0000002"
-    },{
-       "product_code": "0000002",
-      "title": "Classic pink saree",
-       "price": "40",
-       "description": "Beautiful pink silk saree with a matching unstitched Blouse Piece",
-       "size": "free",
-       "available_quantity": "3",
-       "img_src": "images/sarees/classic/saree_0000002"
-    },{
-       "product_code": "0000002",
-      "title": "Classic pink saree",
-       "price": "40",
-       "description": "Beautiful pink silk saree with a matching unstitched Blouse Piece",
-       "size": "free",
-       "available_quantity": "3",
-       "img_src": "images/sarees/classic/saree_0000002"
-    },{
-       "product_code": "0000002",
-      "title": "Classic pink saree",
-       "price": "40",
-       "description": "Beautiful pink silk saree with a matching unstitched Blouse Piece",
-       "size": "free",
-       "available_quantity": "3",
-       "img_src": "images/sarees/classic/saree_0000002"
-    },{
-       "product_code": "0000002",
-      "title": "Classic pink saree",
-       "price": "40",
-       "description": "Beautiful pink silk saree with a matching unstitched Blouse Piece",
-       "size": "free",
-       "available_quantity": "3",
-       "img_src": "images/sarees/classic/saree_0000002"
-    },{
-       "product_code": "0000002",
-      "title": "Classic pink saree",
-       "price": "40",
-       "description": "Beautiful pink silk saree with a matching unstitched Blouse Piece",
-       "size": "free",
-       "available_quantity": "3",
-       "img_src": "images/sarees/classic/saree_0000002"
-    },{
-       "product_code": "0000002",
-      "title": "Classic pink saree",
-       "price": "40",
-       "description": "Beautiful pink silk saree with a matching unstitched Blouse Piece",
-       "size": "free",
-       "available_quantity": "3",
-       "img_src": "images/sarees/classic/saree_0000002"
-    },{
-       "product_code": "0000002",
-      "title": "Classic pink saree",
-       "price": "40",
-       "description": "Beautiful pink silk saree with a matching unstitched Blouse Piece",
-       "size": "free",
-       "available_quantity": "3",
-       "img_src": "images/sarees/classic/saree_0000002"
-    },{
-       "product_code": "0000002",
-      "title": "Classic pink saree",
-       "price": "40",
-       "description": "Beautiful pink silk saree with a matching unstitched Blouse Piece",
-       "size": "free",
-       "available_quantity": "3",
-       "img_src": "images/sarees/classic/saree_0000002"
+      "price": "40",
+      "description": "Designer Indian Pink Georgette Classic Saree",
+      "size": "free",
+      "available_quantity": "6",
+      "img_src": "images/sarees/classic/saree_0000004"
+    },
+    {
+      "product_code": "0000005",
+      "title": "Classic beige saree",
+      "price": "80",
+      "description": "ETHNIC PAKISTANI DESIGNER SAREE Classic",
+      "size": "free",
+      "available_quantity": "16",
+      "img_src": "images/sarees/classic/saree_0000005"
+    },
+    {
+      "product_code": "0000006",
+      "title": "Classic saree",
+      "price": "20",
+      "description": "100% Cotton Saree Classic Print with Blouse Material",
+      "size": "free",
+      "available_quantity": "16",
+      "img_src": "images/sarees/classic/saree_0000006"
+    },
+    {
+      "product_code": "0000007",
+      "title": "Classic multicolor saree",
+      "price": "35",
+      "description": "100% Cotton Saree Multicolor Classic Print with Blouse Material",
+      "size": "free",
+      "available_quantity": "26",
+      "img_src": "images/sarees/classic/saree_0000007"
     }
 	],
 	"bollywood":[
+    {
+     "product_code": "0000001",
+       "title": "Indian Yellow Red Saree",
+       "price": 150,
+       "description": "Indian Replica Madhuri Yellow Red Chiffon Bollywood Saree",
+       "size": "free",
+       "available_quantity": "2",
+       "img_src": "images/sarees/bollywood/saree_0000001"
+    },
+    {
+     "product_code": "0000002",
+       "title": "Aishwarya Rai Bachchan Saree",
+       "price": 110,
+       "description": "Beautiful pink/peach silk saree with a matching unstitched Blouse Piece",
+       "size": "free",
+       "available_quantity": "4",
+       "img_src": "images/sarees/bollywood/saree_0000002"
+    },
 		{
 	   "product_code": "0000003",
-       "title": "Classic red saree",
-       "price": 40,
-       "description": "Beautiful pink silk saree with a matching unstitched Blouse Piece",
+       "title": "Yellow saree Deepika Padukone",
+       "price": 100,
+       "description": "Beautiful yellow silk saree with a matching unstitched Blouse Piece",
        "size": "free",
        "available_quantity": "3",
-       "img_src": "images/sarees/classic/saree_0000002"
-		}
+       "img_src": "images/sarees/bollywood/saree_0000003"
+		},    
+    {
+     "product_code": "0000004",
+       "title": "Katrina Kaif White Saree",
+       "price": 120,
+       "description": "Silver White Indian Designer Bollywood Replica Saree ",
+       "size": "free",
+       "available_quantity": "1",
+       "img_src": "images/sarees/bollywood/saree_0000004"
+    },
+    {
+     "product_code": "0000005",
+       "title": "BOLLYWOOD SAREE Priyanka Chopra",
+       "price": 160,
+       "description": "Priyanka Chopra Replica saree from film Gunday",
+       "size": "free",
+       "available_quantity": "3",
+       "img_src": "images/sarees/bollywood/saree_0000005"
+    },
+    {
+     "product_code": "0000006",
+       "title": "Bollywood Madhuri Dixit Black Saree",
+       "price": 100,
+       "description": "India Bollywood Replica Madhuri Dixit Black Georgette Saree",
+       "size": "free",
+       "available_quantity": "4",
+       "img_src": "images/sarees/bollywood/saree_0000006"
+    },
+    {
+     "product_code": "0000007",
+       "title": "Designer Bollywood Replica Saree",
+       "price": 130,
+       "description": "Aishwarya Rai Bachchan Bollywood Replica Saree",
+       "size": "free",
+       "available_quantity": "5",
+       "img_src": "images/sarees/bollywood/saree_0000007"
+    }
 	]
 }

@@ -1,0 +1,29 @@
+{
+  "kurti":
+    [
+      { "product_code": "0000001",
+        "title": "Indian Kurti Designer Tunic",
+        "price": "28",
+        "description": "Indian Kurti Designer Tunic",
+        "size": "L",
+         "available_quantity": "2",
+         "img_src": "images/kurti/kurti_0000001"
+      },
+      { "product_code": "0000002",
+        "title": "Pink Kurti Tunic",
+        "price": "20",
+        "description": "Indian Pink Kurti Tunic",
+        "size": "L",
+         "available_quantity": "2",
+         "img_src": "images/kurti/kurti_0000002"
+      },
+      { "product_code": "0000003",
+        "title": "Printed Cotton Kurti Tunic",
+        "price": "30",
+        "description": "Indian Pink Kurti Tunic",
+        "size": "S,M,L & XL",
+         "available_quantity": "12",
+         "img_src": "images/kurti/kurti_0000003"
+      }
+    ]
+}

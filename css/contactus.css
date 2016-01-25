@@ -1,9 +1,6 @@
 .boxed {
- 	
  	background-color: #fff;
   width: 50%;
-  
-    
   border: 10px solid #e6007e;
   border-radius: 9px;
   padding: 15px;
@@ -14,8 +11,11 @@
 }
 
 .post_content{
-    margin-top: 100px;
-    margin-left: 10px;
+  margin-top: 100px;
+  margin-left: 10px;
+  min-height: 80%;
+  margin-bottom: 0px;
+  position: relative;
 }
 
 .box{
@@ -25,12 +25,4 @@
   border:10px solid #e6007e;
   margin-top: -15px;
   margin-left: 456px;
-  
-}
-
-footer{
-  font-family: Satisfy, cursive;
-  margin-right: auto;
-  margin-right: auto;
-  text-align: center;
 }
