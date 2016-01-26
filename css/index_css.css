@@ -124,3 +124,26 @@ footer{
 html,body{
     height: 100%;
 }
+
+#how_to{
+    margin-left: 500px;
+}
+
+#video{
+    margin-top: 100px;
+    margin-left: 250px;
+}
+
+#how_p{
+    margin-left: 50px;
+    font-family: Satisfy, cursive;
+    font-size: 1.5em;
+}
+
+#background{
+    background-image: url(/images/background/bg3.png);
+    height: 84px;
+    width:100%;
+    background-repeat: repeat-x;
+    margin-bottom:20px;
+}

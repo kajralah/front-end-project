@@ -13,12 +13,9 @@ app.listen(8080,function(){
   console.log("Started on PORT 8080");
 })
 
-
-var favicon = require('serve-favicon');
-
-app.use("/favicon.ico",favicon(__dirname + '/public/images/favicon.ico'));
-
 app.use("/css", express.static(__dirname + '/css'));
+
+app.use("/audio", express.static(__dirname + '/audio'));
 
 app.use("/js", express.static(__dirname + '/js'));
 

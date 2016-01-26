@@ -58,8 +58,8 @@ Product.buy_info = function(data){
 	var image = "<img src="+'"'+img+"\" id=\"img\" height=\"350\" width=\"250\"/>";
 
 	var result = "<div>";
-	result += "<figure>"+image+"<figcaption id=\"fig\"><p><strong>";
-	result += title+"</strong></p></figcaption></figure><p><strong>Price: "+price+" BGN</strong>"
+	result += "<figure>"+image+"<figcaption id=\"fig\"><strong>";
+	result += title+"</strong><br><strong>Price: "+price+" BGN</strong></figcaption></figure><br><br>"
 	$("#product_buy_info").append(result);
 }
 
